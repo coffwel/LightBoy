@@ -4,7 +4,7 @@ import vpython as vp
 import numpy as np
 import ast as ast
 
-with open(r"C:\Users\eren1\Desktop\work\phys290\lightbot\levels\level2.txt",'r') as file:  #Read levels file
+with open(r"LightBoy\lightbot\levels\level2.txt",'r') as file:  #Read levels file
     mheight = np.array(ast.literal_eval(file.readline()))
     mlight = np.array(ast.literal_eval(file.readline()))
     position = file.readline()
